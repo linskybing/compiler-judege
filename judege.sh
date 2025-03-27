@@ -1,14 +1,14 @@
 #!/bin/bash
 
 TEST_DIR="./testcases"
-#GOLDEN_SCANNER="./golden_scanner"
-GOLDEN_SCANNER="./scanner"
+GOLDEN_SCANNER="golden_scanner"
+#GOLDEN_SCANNER="./scanner"
 SCANNER="./scanner"
 
 pass_count=0
 fail_count=0
 
-for i in $(seq -f "%02g" 0 0); do
+for i in $(seq -f "%02g" 0 5); do
     test_file="${TEST_DIR}/t${i}.c"   
     golden_output=$($GOLDEN_SCANNER < "$test_file")
     scanner_output=$($SCANNER < "$test_file")
