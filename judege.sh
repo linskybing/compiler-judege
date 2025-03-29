@@ -3,7 +3,7 @@
 TEST_DIR="./testcases"
 GOLDEN_SCANNER="golden_scanner"
 #GOLDEN_SCANNER="./scanner"
-SCANNER="./scanner"
+SCANNER="../scanner"
 
 pass_count=0
 fail_count=0

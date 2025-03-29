@@ -13,7 +13,7 @@ void exampleFunction() {
 
     int a = 1 + (++a) + (a++);
     char strrrrr[] = "987654321098abcdefghijklm;9.234098";
-    char aa[] = {'\a', '\b', '\e', '\f', '\n', '\r', '\t', '\v', '\\', '\'', '\"', '\?', '\0'};
+    char aa[] = {'\a', '\b', '\e', '\f', '\n', '\r', '\t', '\v', '\\', '\'', '\"', '\?', '\0', '\x123456789abcdef', '\x123456789abcdef', '\x123456789abcdef''\x123456789abcdef''\x123456789abcdef''\x123456789abcdef''\x123456789abcdef''\x123456789abcdef''\x123456789abcdef'};
 }
 #pragma token on
 
@@ -22,7 +22,13 @@ char marcroFunction() {
     #pragma source off
     int a_324908473_123948029347509 = 6;
     int asfeawVar[] = {3, 6, 7890, 12345, 98765};
-    int asfd_adsf_var = (asdfVal < aasdf && asdfVar > -0.1) + 23450970 + 8765;
+    int asfd_adsf_var = (asdfVal < aasdf && asdfVar > -0.1) + 23450970 + 8765;     /*
+    aspjfoiewajpifw
+    ajwpeofiewajpofr
+    ajwpeofiaewjpooijawef
+    jawpeofiewajfpoiewa
+    awpfoinawfopianefopwa
+*/
 
     #pragma source on
     char testVarArr[] = {'\UA1234B22', '\u5566', '\uDDDD', '\555'};
@@ -36,7 +42,13 @@ for (int i = 0; i < (7 * 4 / 5 * 2); ++i)
         do {
             newTestVar++;
             newTestVar--;
-            newTestVar += newTestVar + 7 + .0;
+            newTestVar += newTestVar + 7 + .0;      /*
+            aspjfoiewajpifw
+            ajwpeofiewajpofr
+            ajwpeofiaewjpooijawef
+            jawpeofiewajfpoiewa
+            awpfoinawfopianefopwa
+        */
             newTestVar = 8;
         } while (newTestVar < 8);
         #pragma token on
@@ -50,8 +62,35 @@ for (int i = 0; i < (7 * 4 / 5 * 2); ++i)
             newTestVar = 8;
     }
 #pragma source off
-
+/*
+    aspjfoiewajpifw
+    ajwpeofiewajpofr
+    ajwpeofiaewjpooijawef
+    jawpeofiewajfpoiewa
+    awpfoinawfopianefopwa
+*/
 struct {
     char firstVar = 17;
-    char secondVar = 234509821370 - 0.56;
+    char secondVar = 234509821370 - 0.56;       /*
+    aspjfoiewajpifw
+    ajwpeofiewajpofr
+    ajwpeofiaewjpooijawef
+    jawpeofiewajfpoiewa
+    awpfoinawfopianefopwa
+*/
+    /*
+        aspjfoiewajpifw
+        ajwpeofiewajpofr
+        ajwpeofiaewjpooijawef
+        jawpeofiewajfpoiewa
+        awpfoinawfopianefopwa
+    */
 }
+
+                /*
+        aspjfoiewajpifw
+        ajwpeofiewajpofr
+        ajwpeofiaewjpooijawef
+        jawpeofiewajfpoiewa
+        awpfoinawfopianefopwa
+    */
